@@ -19,8 +19,5 @@ const School = {
     country: 'United States',
     age: 2,
     getAddress: function() {
-        return this.city + ', ' + this.state + ', ' + this.country 
-    }
-};
-
-School.getAddress(); 
+        return this.city + ', ' + this.state + ', ' + this.country
+      School.getAddress();
